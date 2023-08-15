@@ -1,0 +1,114 @@
+body {
+  font-size: 15pt;
+  background-color: gray;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+
+.list {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+#button {
+  background: black;
+  color: whitesmoke;
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 15px;
+  background: darkslategray;
+}
+
+.mic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid transparent;
+  background: darkgray;
+  border-radius: 50%;
+  padding: 10px;
+  width: 10px;
+  height: 10px;
+  margin: 0px;
+}
+
+.micBox {
+  padding-left: 120px;
+}
+
+.pic img {
+  width: 50px;
+  height: 50px;
+  border: 0px solid transparent;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+
+.nameBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 15px;
+}
+
+.option {
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  gap: 17px;
+  margin-left: -20px;
+}
+
+.footBox {}
+
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid transparent;
+  background: red;
+  border-radius: 50%;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+
+}
+
+.footRounds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid transparent;
+  background: darkslategray;
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  color: whitesmoke;
+}
+.footRounds:focus , .footRounds:hover {
+  background: whitesmoke;
+  color: darkslategray;
+}
