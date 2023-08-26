@@ -5,7 +5,10 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 20px;
 }
-
+.myName{
+  font-size: 6px;
+  font-weight: 400;
+}
 .list {
   display: flex;
 }
@@ -22,21 +25,29 @@ h1 {
 
 #stepOne{
   display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 #stepTwo{
   display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 #stepThree{
   display: flex;
+  gap:8px;
+  margin-bottom: 8px;
 }
 #stepFour{
   display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
 
 .box {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border: 2px solid red;
   border-radius: 10px;
   padding: 15px;
@@ -57,17 +68,17 @@ h1 {
 }
 
 .micBox {
-  padding-left: 120px;
+  padding-left: 100px;
 }
 
 .pic img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: 0px solid transparent;
   border-radius: 50%;
   margin-left: 50px;
-  margin-top: 22px;
-  margin-bottom: 15px;
+  margin-top: 19px;
+  margin-bottom: 7px;
 }
 
 .nameBox {
