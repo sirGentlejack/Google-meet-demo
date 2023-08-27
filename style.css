@@ -3,7 +3,7 @@ body {
   background-color: gray;
   color: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 20px;
+  margin: 0 20px;
 }
 .myName{
   font-size: 6px;
@@ -99,14 +99,17 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position:absolute;
   bottom: 0;
   width: 100%;
   gap: 17px;
   margin-left: -20px;
+  margin-bottom: -25px;
 }
 
-.footBox {}
+.footBox {
+  
+}
 
 .call {
   display: flex;
@@ -129,6 +132,7 @@ h1 {
   background: darkslategray;
   border-radius: 50%;
   padding: 10px;
+
   width: 30px;
   height: 30px;
   color: whitesmoke;
