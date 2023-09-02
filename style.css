@@ -54,6 +54,10 @@ h1 {
   background: darkslategray;
 }
 
+.box:hover {
+  background-color: darkgray;
+}
+
 .mic {
   display: flex;
   justify-content: center;
